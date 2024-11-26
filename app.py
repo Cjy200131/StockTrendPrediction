@@ -26,10 +26,13 @@ from sklearn.metrics import mean_squared_error
 from sklearn.preprocessing import MinMaxScaler
 
 import tensorflow as tf
-import keras
-from tf_keras.optimizers.legacy import Adam
-from tf_keras.models import Sequential
-from tf_keras.layers import Dense, GRU, LSTM
+# from keras.optimizers import Adam
+from keras.optimizers.legacy import Adam
+from keras.models import Sequential
+from keras.layers import Dense, GRU, LSTM
+# from tf_keras.optimizers.legacy import Adam
+# from tf_keras.models import Sequential
+# from tf_keras.layers import Dense, GRU, LSTM
 # from keras._tf_keras.keras.optimizers import Adam
 # from keras._tf_keras.keras.models import Sequential
 # from keras._tf_keras.keras.layers import Dense, GRU, LSTM
